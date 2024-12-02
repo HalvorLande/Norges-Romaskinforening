@@ -1,0 +1,43 @@
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .header-nav {
+    flex-grow: 1;
+  }
+  
+  .header-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .header-menu li {
+    display: inline;
+  }
+  
+  .header-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .header-menu a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,57 @@
+/* General App Styles */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-main {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Loading Screen */
+.loading {
+  font-size: 1.5em;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Authentication Section */
+.auth-section {
+  margin: 20px 0;
+}
+
+/* Auth Buttons */
+.auth-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button.signin {
+  background-color: #007bff;
+}
+
+.auth-button.signin:hover {
+  background-color: #0056b3;
+}
+
+.auth-button.logout {
+  background-color: #ff4d4d;
+}
+
+.auth-button.logout:hover {
+  background-color: #cc0000;
+}

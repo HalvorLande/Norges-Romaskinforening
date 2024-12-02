@@ -1,0 +1,17 @@
+/* Footer Styles */
+.footer-container {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    color: #555;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-container p {
+    margin: 0;
+  }
+  
